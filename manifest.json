@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "YouTube Ad-block",
+    "version": "1.4",
+    "description": "Turns off YouTube ad-movies and ad-banners automatically when they begin.",
+    "icons": {
+        "128": "icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://youtube.com/*",
+                "https://www.youtube.com/*"
+            ],
+            "js": [
+                "ext.js"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+*.ids
+*.iml
+*.ipr
+*.iws
+.idea*
+build
+out
+logs
+node_modules
+*.log
+target
